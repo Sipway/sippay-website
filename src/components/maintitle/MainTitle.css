@@ -1,0 +1,45 @@
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+  }
+  
+  .left-column {
+    width: 60%;
+    margin-right: 20px;
+  }
+  
+  .right-column {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .main-heading {
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+  }
+  
+  .sub-heading {
+    font-size: 28px;
+    color:gray;
+    margin-bottom: 20px;
+  }
+  
+  .join-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .join-button:hover {
+    background-color: #ffd700;
+    color: #fff;
+  }
+  

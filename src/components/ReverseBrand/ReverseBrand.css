@@ -1,0 +1,31 @@
+.carousel.reverse {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .carousel.reverse .card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .carousel.reverse .card img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .carousel.reverse .rewards {
+    background-color: gold;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
