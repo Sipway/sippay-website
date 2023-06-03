@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    flex-wrap: wrap;
   }
   
   .left-column {
@@ -38,6 +39,7 @@
     border: 2px solid #ffd700;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
   }
   
   .join-button:hover {
@@ -72,7 +74,6 @@
     }
   }
   
-
   @media (max-width: 767px) {
     .right-column {
       display: flex;
