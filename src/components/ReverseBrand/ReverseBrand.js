@@ -3,13 +3,13 @@ import './ReverseBrand.css';
 
 const ReverseBrand = () => {
   const brands = [
-    { image: 'https://blog.myntra.com/wp-content/themes/myntra/assets/img/Myntra-logo-horizontal.png', rewards: 'Earn 8%' },
-    { image: 'https://static.businessworld.in/article/article_extra_large_image/1609147522_O1aw88_BMS.jpg', rewards: 'Earn 10%' },
-    { image: 'https://entrackr.com/storage/2022/02/Swiggy-img.jpg', rewards: 'Earn 7%' },
-    { image: 'https://www.socialsamosa.com/wp-content/uploads/2012/11/Reliance-Trends1.jpg', rewards: 'Earn 12%' },
+    { image: 'https://img.etimg.com/thumb/msid-59738992,width-640,resizemode-4,imgsize-25499/amazon.jpg', rewards: 'Earn 4%' },
+    { image: 'https://logos-download.com/wp-content/uploads/2021/01/Nykaa_Logo.png', rewards: 'Earn 10%' },
+    { image: 'https://www.pngmart.com/files/22/KFC-Logo-PNG-Image.png', rewards: 'Earn 8%' },
+    { image: 'https://w7.pngwing.com/pngs/734/115/png-transparent-pantaloons-fashion-retail-pt-new-delhi-saket-brand-clothing-fashion-retail-text-logo-india.png', rewards: 'Earn 12%' },
     { image: 'https://seeklogo.com/images/C/cult-fit-logo-9020239928-seeklogo.com.png', rewards: 'Earn 13%' },
-    { image: 'https://eu.leafletscdns.com/in/data/4/logo.png', rewards: 'Earn 6%' },
-    { image: 'https://www-us2.api.concursolutions.com/appcenter/api/v3/listings/57fd5e96140411120087e9dd/images/584b3ee7b490ec6ac904e93d?v=1481326311944&lang=en-us', rewards: 'Earn 5%' }
+    { image: 'https://yourchennai.com/wp-content/uploads/2020/05/MakeMyTrip-Logo-3.jpg', rewards: 'Earn 6%' },
+    { image: 'https://akm-img-a-in.tosshub.com/businesstoday/images/story/202209/1200x630wa_1-sixteen_nine.png', rewards: 'Earn 20%' }
   ];
 
   const carouselRef = useRef(null);
