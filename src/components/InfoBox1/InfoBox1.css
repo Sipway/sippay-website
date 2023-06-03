@@ -9,7 +9,7 @@
     border-radius: 5px;
     padding: 20px;
     width: calc(33.33% - 20px);
-    height: 80px;
+    height: 100px;
     border: 2px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to bottom right, #ffd700, #ff8c00);
