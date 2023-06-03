@@ -1,0 +1,19 @@
+.why-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .why-text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .why-icon {
+    font-size: 24px;
+    margin-left: 0;
+    color: white;
+  }
+  
