@@ -1,33 +1,61 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  padding: 20px 10px 10px 10px;
+}
+
+.wrapper-item-logo{
+  grid-column-start: 1;
+}
+
+.wrapper-item-know-more-button{
+  grid-column-start: 3;
+  padding-top: 10px;
+}
+
+.logo {
+  font-family: sans-serif, 'Arial';
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.gold-text {
+  color: rgba(248, 177, 60, 1);
+}
+
+.white-text {
+  color: white;
+}
+
+.know-more-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  color: rgba(248, 177, 60, 1);
+  border: 2px solid rgba(248, 177, 60, 1);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.know-more-button:hover {
+  z-index: 100;
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+
+  .wrapper-item-know-more-button{
+    padding-top: 0;
   }
   
   .logo {
-    display: flex;
-    align-items: center;
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
   }
-  
-  .gold-text {
-    color: gold;
+
+  .know-more-button {
+    font-size: 12px;
+    padding: 5px;
   }
-  
-  .white-text {
-    color: white;
-  }
-  
-  @media (max-width: 768px) {
-    .header {
-      margin: 10px;
-    }
-  
-    .logo {
-      font-size: 20px;
-    }
-  }
-  
+}
