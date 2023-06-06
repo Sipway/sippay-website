@@ -1,59 +1,48 @@
 .carousel {
-  display: flex;
-  overflow-x: auto;
-  width: 100%;
-  white-space: nowrap;
-  scrollbar-width: none;
-  /* Firefox */
-  -ms-overflow-style: none;
-  /* Internet Explorer and Edge */
-}
-
-.brand-heading {
-  display: flex;
-  justify-content: center;
-  color: rgb(220, 220, 220);
-  padding-top: 20px;
-}
-
-.carousel::-webkit-scrollbar {
-  display: none;
-  /* Chrome, Safari, and Opera */
-}
-
-@keyframes scrollCards {
-  0% {
-    transform: translateX(0%);
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
   }
-
-  100% {
-    transform: translateX(-100%);
+  
+  .carousel::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
   }
-}
-
-.card {
-  flex: 0 0 auto;
-  width: 200px;
-  height: 150px;
-  margin-right: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  background-color: #fff;
-}
-
-.card img {
-  max-width: 100%;
-  height: 100px;
-  object-fit: contain;
-  margin-bottom: 10px;
-}
-
-.rewards {
-  background-color: rgba(248, 177, 60, 1);
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
-  font-weight: 700;
-}
+  
+  @keyframes scrollCards {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .rewards {
+    background-color: gold;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
