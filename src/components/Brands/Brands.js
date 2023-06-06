@@ -27,8 +27,8 @@ const Brands = () => {
   }, []);
 
   return (
-    <div>
-      <h2 className="brand-heading">Top Brands</h2>
+    <div className="brands">
+      <h2 className="heading">Top Brands</h2>
       <div className="carousel-container">
         <div className="carousel" ref={carouselRef}>
           {brands.map((brand, index) => (
