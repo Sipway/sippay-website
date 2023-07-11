@@ -5,8 +5,8 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <span className="gold-text">SIP</span>
-        <span className="white-text">PAY</span>
+        <span className="gold-text">Gold</span>
+        <span className="white-text">Bee</span>
       </div>
     </header>
   );

@@ -1,10 +1,19 @@
 import React from 'react';
 import './MainTitle.css';
+import LoginModal from '../LoginModal/LoginModal';
+import { useState } from 'react';
 
 function MainTitle() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
   const handleJoinWaitlist = () => {
-    window.open('https://forms.gle/BLiwJAYFxw9r4EjW8', '_blank');
+    setIsModalOpen(true)
   };
+
+  const handleCoseModal = () => {
+    setIsModalOpen(false);
+
+  }
+
 
   return (
     <div className="main-title">
@@ -17,6 +26,7 @@ function MainTitle() {
           Join the Waitlist
         </button>
       </div>
+      <LoginModal open={isModalOpen} onClose={handleCoseModal} />
     </div>
   );
 }
