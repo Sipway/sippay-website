@@ -12,6 +12,7 @@ import Header from './components/header/Header';
 import MainTitle from './components/maintitle/MainTitle';
 import Why from './components/why/Why';
 import Dashboard from './components/Dashboard/Dashboard';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -21,11 +22,15 @@ function App() {
   return (
     <div className='app'>
       <Header />
-      
+      <MainTitle />
+      <br></br>
+
       <Brands />
        <br></br>
         
        <ReverseBrand />
+       <br></br>
+      <Footer />
       </div>
   );
 }

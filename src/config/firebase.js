@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAroPepmZmtF6QoF0T3dcx8d-mtXww13VI",
-    authDomain: "sippay-2ad1c.firebaseapp.com",
-    projectId: "sippay-2ad1c",
-    storageBucket: "sippay-2ad1c.appspot.com",
-    messagingSenderId: "19198165715",
-    appId: "1:19198165715:web:5e9e53d30e3ae0a7a78a26",
-    measurementId: "G-XD2H0RDCFQ"
+    apiKey: "AIzaSyB5oztQbgrupKpoLGhAzMy1g4io1DnwUq4",
+  authDomain: "goldbee-30578.firebaseapp.com",
+  projectId: "goldbee-30578",
+  storageBucket: "goldbee-30578.appspot.com",
+  messagingSenderId: "496216774885",
+  appId: "1:496216774885:web:dc923d1e17950f4df05c0c",
+  measurementId: "G-X4S34Z8WLL"
 };
 
 const app = initializeApp(firebaseConfig);
