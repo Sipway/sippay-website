@@ -20,16 +20,12 @@ function App() {
 
   return (
     <div className='app'>
-      {/* <Header />
+      <Header />
       
-      <Brands /> */}
-      <BrowserRouter>
-        <Routes>
+      <Brands />
+       <br></br>
         
-        <Route path='/' element={<Login />} />
-          <Route path='/brands' element={<Brands />} />
-        </Routes>
-      </BrowserRouter>
+       <ReverseBrand />
       </div>
   );
 }
